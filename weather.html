@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="shortcut icon" href="./images/cloudy.png" type="image/x-icon">
+</head>
+<body>
+
+    <section class="home">
+
+        
+        <div class="navbar">
+           <div class="logo">
+              <img src="./images/cloudy-day.png" alt=""  height="80px"  width="80px">
+            </div>
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact us</a>
+                <a href="">Sign in</a>
+
+               </div>
+            </div>
+        <div class="search">
+           <div class="searchCity">
+            <input type="text" id="searching" placeholder="Enter The City" >
+            <button onclick="getinfo()">Search</button>
+           </div>
+        <div class="location">
+        <img src="./images/google-maps.png " alt=""   height="50px" width="35px" margin="5px"    >
+        <p id="cityname">City Name</p>
+        </div>
+    </div>
+    <div class="info">
+    <h1 > <span id="temp">0</span>
+     <sup>o</sup> <sup>C</sup></h1>
+</div>
+</div>
+
+
+    </section>
+
+    
+    <script src="./weather.js"></script>
+
+
+
+    
+</body>
+</html>
